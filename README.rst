@@ -1,5 +1,5 @@
 kml2geojson - Stripped down for Python/Django
-************
+************************************
     
 `kml2geojson <https://github.com/mrcagney/kml2geojson>`_ is a Python 3.4+ package to convert KML files to GeoJSON files.
 Most of its code is a translation into Python of the Node.js package `togeojson <https://github.com/mapbox/togeojson>`_.
@@ -11,8 +11,10 @@ Download and drop kml2geojson.py file inside your project.
 
 Usage
 ======
-.. code-block:: python
+.. code:: python
+
     from .kml2geojson import convert
+    
     converted_kml_json = convert('path/to/kml/file')
 
 Maintaining
